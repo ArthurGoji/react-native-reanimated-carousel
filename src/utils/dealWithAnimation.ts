@@ -1,4 +1,5 @@
 import type { WithAnimation } from '../types';
+(global as any).__reanimatedWorkletInit = () => {};
 import { withSpring, withTiming } from 'react-native-reanimated';
 
 export function dealWithAnimation(
